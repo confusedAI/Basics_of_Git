@@ -69,4 +69,12 @@ Go to 'clone or download' option then you can download repository as zip or copy
 "git clone <link>" to download whole repository as a folder.
 
 
-Suppose many developers are working on a project and someone made a change then you can use "git pull" to get new changes. In our case it showed 'Already up-to-date' because nothing has changed between remote and local repository.
+Suppose many developers are working on a project and someone made a change then you can use "git pull" to get new changes. In our case it showed 'Already up-to-date' because nothing has changed between remote and local repository
+
+
+
+Revert back to some previous version(or commit)
+"git reset --hard <SHAsum of your version(i.e. value after commit keyword)>"
+You can get this value by using command "git log"
+
+
