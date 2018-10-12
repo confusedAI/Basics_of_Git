@@ -65,4 +65,6 @@ Whenever we say "git status" till now we get 'on branch master'. Suppose a team 
 Now, type "git checkout master". You will notice that login.txt file is not there and even Readme.txt file is different, because the modified Readme.txt and login.txt were in login branch not master branch, So they are different.
 
 
+"git merge login" --- branch login will be merged with master. I did not type this command because I don't want Readme.txt in master to modify to Readme.txt in login, so that in future I can understand the difference for understanding branching.
+
  
