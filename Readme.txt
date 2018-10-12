@@ -49,3 +49,18 @@ Add all the names of files, folders, etc in '.gitignore' file, that you don't wa
 I don't want to include folder 'dir2' so I added '/dir2' in '.gitignore'
 
 
+
+Type "git checkout login" for reading Readme.txt and learning branching.
+Completed Branching Basics
+
+
+
+Now we'll start working with remote repository.
+Created repository in github with name 'Basics_of_Git'.
+We should add README.md describing our repository and use .md(mark down) so that information explaining our repository displays nicely.
+
+Use below commands to connect Your Local Repository To Your GitHub Repository.Having a local repository as well as a remote (online) repository is the best of both worlds. You can tinker all you like without even being connected to the Internet, and at the same time showcase your finished work on GitHub for all to see.
+"git remote add origin https://github.com/confusedAI/Basics_of_Git.git"
+"git push -u origin master"
+
+
