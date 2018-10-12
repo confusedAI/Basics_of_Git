@@ -64,3 +64,6 @@ Use below commands to connect Your Local Repository To Your GitHub Repository.Ha
 "git push -u origin master"
 
 
+Download or clone whole repository from github:
+Go to 'clone or download' option then you can download repository as zip or copy the link then type command
+"git clone <link>" to download whole repository as a folder.
