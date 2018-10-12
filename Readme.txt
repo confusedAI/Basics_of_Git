@@ -56,7 +56,7 @@ I don't want to include any text file, add '*.txt' in '.gitignore'
 
 
 
-Whenever we say "git status" till now we get 'on branch master'. Suppose a team is working on a project and I am given a task of creating a login screen then I can just create a login(or any other name) branch so that
+Whenever we say "git status" till now we get 'on branch master'. Suppose a team is working on a project and I am given a task of creating a login screen then I can just create a login(or any other name) branch so that I diverge from the main line of development and continue to do work without messing with that main line.
 
 "git branch login" ---  created branch named login. But doing only this does not change our branch. We have to use command
 "git checkout login" --- changes our branch to login.
