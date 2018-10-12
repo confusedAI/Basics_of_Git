@@ -60,3 +60,9 @@ Whenever we say "git status" till now we get 'on branch master'. Suppose a team 
 
 "git branch login" ---  created branch named login. But doing only this does not change our branch. We have to use command
 "git checkout login" --- changes our branch to login.
+"touch login.txt" --- added login.txt in login branch
+"git commit -m '<any message>'"
+Now, type "git checkout master". You will notice that login.txt file is not there and even Readme.txt file is different, because the modified Readme.txt and login.txt were in login branch not master branch, So they are different.
+
+
+ 
