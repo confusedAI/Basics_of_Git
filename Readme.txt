@@ -47,5 +47,16 @@ Add all the names of files, folders, etc in '.gitignore' file, that you don't wa
 "touch .gitignore"
 
 I don't want to include folder 'dir2' so I added '/dir2' in '.gitignore'
+I don't want to include any text file, add '*.txt' in '.gitignore'
 
 
+
+
+
+
+
+
+Whenever we say "git status" till now we get 'on branch master'. Suppose a team is working on a project and I am given a task of creating a login screen then I can just create a login(or any other name) branch so that
+
+"git branch login" ---  created branch named login. But doing only this does not change our branch. We have to use command
+"git checkout login" --- changes our branch to login.
