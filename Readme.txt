@@ -46,5 +46,6 @@ Let's now see how to use ------------ .gitignore file
 Add all the names of files, folders, etc in '.gitignore' file, that you don't want in your repository so that even if you type command "git add ." allthe things in '.gitignore'  will be ignored and won't be added to staging area.
 "touch .gitignore"
 
+I don't want to include folder 'dir2' so I added '/dir2' in '.gitignore'
 
 
