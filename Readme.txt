@@ -35,3 +35,8 @@ Now we'll add our name and mail to git ---
 
 
 
+
+"git commit -m  '<commit message>'" --- no need to open vim, just give the commit message between ''.
+
+
+
