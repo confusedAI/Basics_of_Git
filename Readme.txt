@@ -28,3 +28,10 @@ Now we'll add our name and mail to git ---
 "git add ." --- adds everything to the staging area.
 
 
+
+
+
+"git commit" ---  opens a vim editor to write git commit message(i.e. description about what changes you made,so that when you revert to this version you can remember exactly how your repository looked at this version).
+
+
+
