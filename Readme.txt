@@ -40,3 +40,11 @@ Now we'll add our name and mail to git ---
 
 
 
+
+
+Let's now see how to use ------------ .gitignore file
+Add all the names of files, folders, etc in '.gitignore' file, that you don't want in your repository so that even if you type command "git add ." allthe things in '.gitignore'  will be ignored and won't be added to staging area.
+"touch .gitignore"
+
+
+
