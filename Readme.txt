@@ -67,3 +67,6 @@ Use below commands to connect Your Local Repository To Your GitHub Repository.Ha
 Download or clone whole repository from github:
 Go to 'clone or download' option then you can download repository as zip or copy the link then type command
 "git clone <link>" to download whole repository as a folder.
+
+
+Suppose many developers are working on a project and someone made a change then you can use "git pull" to get new changes. In our case it showed 'Already up-to-date' because nothing has changed between remote and local repository.
