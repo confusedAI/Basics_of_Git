@@ -18,15 +18,16 @@ We should always add *README.md* describing our repository and use .md(mark down
 <s>Also add log.txt file to learn few other commands. It's has no special use,we are just adding it to experiment with commands.</s>
 <br />
 <br />
+<br/>
 **git status** ---
 
-              Under *changes to be committed:*
-                    Files in staging area, waiting to get commit (git will take the snapshot of our repository at the time we commit).
-
-              Under *untrackd files:*
+ * Under *changes to be committed* ---
+                    Files in staging area, waiting to get commit (git will take the snapshot of our repository at the time we commit).<br/>
+ * Under *untracked files* ---
                     Files to be added to staging area, so that they will be included in what will be committed).
 
 <br />
+
 **git rm --cached Readme.md** --- removes *Readme.md* from the staging area. Now if we do **git status** we'll see two untracked files* (Readme.md and log.txt)*.
 <br />
 <br />
@@ -50,34 +51,41 @@ We should always add *README.md* describing our repository and use .md(mark down
 ## Let's now see how to use ------------ *.gitignore file*
 Add all the names of files, folders, etc in *.gitignore* file, that you don't want in your repository so that even if you type command **git add .**
  all the things in *.gitignore*  will be ignored and won't be added to staging area.
-**touch .gitignore**
+ 
+**touch .gitignore** --- created empty file *.gitignore*
 <br />
 I don't want to include folder *dir2* so I added */dir2* in *.gitignore*
 <br />
 <br />
 <br />
-# Type **git checkout -b login**  --- Create  branch name *login*  which will be a exact copy of your master branch.
+### Branching, mostly used during projects when many people are collaborating on that project. 
+**git checkout -b login**  --- Create  branch name *login*  which will be a exact copy of your master branch.
 **git checkout login **           ---     Switch to login branch
-Read the modified Readme.md for learning branch in login.
+Read the modified Readme.md in login branch for learning branching basics....
 <br />
-*Completed Branching Basics*
+<s>Completed Branching Basics</s>
 <br />
 <br />
 <br />
-# Now we'll start working with remote repository.
+<br/>
+## Now we'll start working with remote repository, which in our case is located at github.
 Created repository in github with name *Basics_of_Git*.
 <br />
 <br />
 Use below commands to connect Your Local Repository To Your GitHub Repository. Having a local repository as well as a remote (online) repository is
  the best of both worlds. You can tinker all you like without even being connected to the Internet, and at the same time showcase your finished work
- on GitHub for all to see.
+ on GitHub for all to see.<br/><br/>
 **git remote add origin https://github.com/confusedAI/Basics_of_Git.git**
+
+ * origin is an alias on your system for a particular remote repository.For further info check image on *first_tutorial* folder.
+
 **git push -u origin master**
 <br />
 <br />
-Download or clone whole repository from github:
-Go to *clone or download* option then you can download repository as zip or copy the link then type command
-**git clone <link>** to download whole repository as a folder.
+<br/>
+###Download or clone whole repository from github:
+Go to *clone or download* option. From there you can download repository as zip or copy the link then type command<br/>
+**git clone** _<s>link-name</s>_ --- to download whole repository as a folder, where _<s>link-name</s>_ is your copied link.
 <br />
 <br />
 Suppose many developers are working on a project and someone made a change then you can use **git pull** to get new changes. In our case it showed
@@ -85,8 +93,8 @@ Suppose many developers are working on a project and someone made a change then 
 <br />
 <br />
 <br />
-Revert back to some previous version(or commit)
-**git reset --hard <SHAsum of your version(i.e. value after commit keyword)>**
-You can get this value by using command **git log**
+###Revert back to some previous version(or commit)
+**git reset --hard <s>SHA value of your version(i.e. value after commit keyword)</s>**<br/><br/>
+You can get this value by using command: **git log**
 <br />
 
