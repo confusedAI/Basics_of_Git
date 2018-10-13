@@ -6,12 +6,13 @@
  use git commands.
  <br />
 <br />
-Now we'll add our name and mail to git ---
-**git config --global user.name _confusedAI_**
+Now we'll add our name and mail to git --- <br />
+**git config --global user.name _confusedAI_** <br />
 **git config --global user.email _0shivam33@gmail.com_ **
 <br />
 <br />
-**git add Readme.md** --- adding *Readme.md* to our git repository
+**git add Readme.md** --- adding *Readme.md* to our git repository. We should add README.md describing our repository and use .md(mark down) so that
+ information explaining our repository displays nicely.
 <br />
 <br />
 **git status** --- 
@@ -63,7 +64,6 @@ Read the modified Readme.md for learning branch in login.
 <br />
 # Now we'll start working with remote repository.
 Created repository in github with name *Basics_of_Git*.
-We should add README.md describing our repository and use .md(mark down) so that information explaining our repository displays nicely.
 <br />
 <br />
 Use below commands to connect Your Local Repository To Your GitHub Repository. Having a local repository as well as a remote (online) repository is
