@@ -1,30 +1,34 @@
-**command are in bold**   
-*Specific names such as folder name,file name are in italics*
-
-
+**commands** are in bold    
+Specific names such as *folder name,file name* are in italics
+<br />
+### Start with the below command to create your local repository
 **git init** ---  Creates a *.git* (hidden) folder in our *Basics* folder. We have initialized *Basics* as a git repository and now we can start to
  use git commands.
- <br />
-<br />
-Now we'll add our name and mail to git --- <br />
-**git config --global user.name _confusedAI_** <br />
-**git config --global user.email _0shivam33@gmail.com_ **
-<br />
-<br />
-**git add Readme.md** --- adding *Readme.md* to our git repository. We should add README.md describing our repository and use .md(mark down) so that
- information explaining our repository displays nicely.
-<br />
-<br />
-**git status** --- 
-
-                 Under *changes to be committed:*
-                              Files in staging area, waiting to get commit (git will take the snapshot of our repository at the time we commit).
-
-                 Under *untrackd files:*
-                              Files to be added to staging area, so that they will be included in what will be committed).
 
 <br />
-**git rm --cached Readme.md** --- removes *Readme.md* from the staging area. Now if we do **git status** we*ll see two untracked files.
+<br />
+The first thing to do is add your name and mail to git --- <br />
+**git config --global user.name <s> confusedAI </s> ** <br />
+**git config --global user.email <s>mail_id</s> ** <br />
+<br />
+<br />
+We should always add *README.md* describing our repository and use .md(mark down) so that information explaining our repository displays nicely.  
+**git add Readme.md** --- adds *Readme.md* to your git repository.   
+
+<s>Also add log.txt file to learn few other commands. It's has no special use,we are just adding it to experiment with commands.</s>
+<br />
+<br />
+**git status** ---
+
+              Under *changes to be committed:*
+                    Files in staging area, waiting to get commit (git will take the snapshot of our repository at the time we commit).
+
+              Under *untrackd files:*
+                    Files to be added to staging area, so that they will be included in what will be committed).
+
+<br />
+**git rm --cached Readme.md** --- removes *Readme.md* from the staging area. Now if we do **git status** we'll see two untracked files* (Readme.md and log.txt)*.
+<br />
 <br />
 **git add *.txt ** --- adds all txt files to the staging area.
 <br />
@@ -32,20 +36,18 @@ Now we'll add our name and mail to git --- <br />
 <br />
 <br />
 <br />
-<br />
 
-**git commit** ---  opens a vim editor to write git commit message(i.e. description about what changes you made, so that when you revert back to this version you can remember exactly with what changes you committed your repository at this version).
+**git commit** ---  opens a vim editor to write git commit message(description about what changes you made, so that when you revert back to this version you can remember exactly with what changes you committed your repository at this version).
 <br />
-<br />
-<br />
-
-**git commit -m  _<commit message>_ ** --- no need to open vim, just give the commit message in place of *<commit message>* within " ".
 <br />
 <br />
 
+**git commit -m  *<s>commit message</s>* ** --- no need to open vim, just give the commit message in place of *<s>commit message</s>* within " ".
+<br />
+<br />
 
 
-# Let's now see how to use ------------ *.gitignore file*
+## Let's now see how to use ------------ *.gitignore file*
 Add all the names of files, folders, etc in *.gitignore* file, that you don't want in your repository so that even if you type command **git add .**
  all the things in *.gitignore*  will be ignored and won't be added to staging area.
 **touch .gitignore**
