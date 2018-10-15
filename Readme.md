@@ -1,4 +1,4 @@
-**commands** are in bold other than headers. 
+**commands** are in bold other than headers.<br/> 
 Specific names such as *folder name,file name* are in italics.
 
 
@@ -6,7 +6,7 @@ Specific names such as *folder name,file name* are in italics.
 **git init** ---  Creates a *.git* (hidden) folder in our *Basics* folder. We have initialized *Basics* as a git repository and now we can start to use git commands.
 ##### The first thing to do is add your name and mail to git.
 
-**git config --global user.name ~~confusedAI~~**
+**git config --global user.name ~~confusedAI~~**<br/>
 **git config --global user.email ~~mail_id~~**
 
 
@@ -77,16 +77,16 @@ Use below commands to connect Your Local Repository To Your GitHub Repository. H
 <br />
 <br />
 <br/>
-###Download or clone whole repository from github:
+### Download or clone whole repository from github:
 Go to *clone or download* option. From there you can download repository as zip or copy the link then type command<br/>
-**git clone** _~~link-name<~~_ --- to download whole repository as a folder, where _~~link-name~~_ is your copied link.
+**git clone** _~~link-name~~_ --- to download whole repository as a folder, where _~~link-name~~_ is your copied link.
 <br />
 <br />
 Suppose many developers are working on a project and someone made a change then you can use **git pull** to get new changes. In our case it showed *Already up-to-date* because nothing has changed between remote and local repository.
 <br />
 <br />
 <br />
-###Revert back to some previous version(or commit)
+### Revert back to some previous version(or commit)
 **git reset --hard ~~SHA value of your version(i.e. value after commit keyword)~~**<br/><br/>
 You can get this value by using command: **git log**
 <br />
