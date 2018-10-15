@@ -67,4 +67,7 @@ Now, type "git checkout master". You will notice that login.txt file is not ther
 
 "git merge login" --- branch login will be merged with master. I did not type this command because I don't want Readme.txt in master to modify to Readme.txt in login, so that in future I can understand the difference for understanding branching.
 
- 
+
+Now to push this branch to remote directory, you need to type:
+git push -u origin login
+you will get the message: Branch 'login' set up to track remote branch 'login' from 'origin'.   
