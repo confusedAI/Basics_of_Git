@@ -1,7 +1,7 @@
 This tutorial is prepared from the following video:
 **https://www.youtube.com/watch?v=SWYqp7iY_Tc**
 
-**commands** are in bold other than headers.<br/> 
+**commands** are in bold other than headers.<br/>
 Specific names such as *folder name,file name* are in italics.
 
 
@@ -50,16 +50,15 @@ We should always add *README.md* describing our repository and the reason behind
 
 ## Let's now see how to use ------------ *.gitignore file*
 Add all the names of files, folders, etc in *.gitignore* file, that you don't want in your local repository so that even if you type command **git add .** all the things in *.gitignore*  will be ignored and won't be added to staging area.
- 
+
 **touch .gitignore** --- created empty file *.gitignore*
 <br />
 I don't want to include folder *dir2* so I added */dir2* in *.gitignore*
 <br />
 <br />
 <br />
-### Branching, mostly used during projects when many people are collaborating on that particular project. 
-**git checkout -b login**  --- Create  branch name *login*  which will be a exact copy of your master branch.
-**git checkout login**           ---     Switch to login branch
+### Branching, mostly used during projects when many people are collaborating on that particular project.
+
 Read the modified Readme.md in login branch for learning branching basics....
 <br />
 ~~Completed Branching Basics~~
@@ -93,4 +92,3 @@ Suppose many developers are working on a project and someone made a change then 
 **git reset --hard ~~SHA value of your version(i.e. value after commit keyword)~~**<br/><br/>
 You can get this value by using command: **git log**
 <br />
-
