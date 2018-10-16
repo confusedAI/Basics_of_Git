@@ -2,7 +2,7 @@
 
 
 "git init" ---  Creates a '.git' (hidden) folder in our 'Basics' folder. We have initialized 'Basics' as a git repository and now we can start to use git commands.
- 
+
 
 Now we'll add our name and mail to git ---
 "git config --global user.name 'confusedAI'"
@@ -12,7 +12,7 @@ Now we'll add our name and mail to git ---
 "git add Readme.txt" --- adding Readme.txt to our git repository
 
 
-"git status" --- 
+"git status" ---
 
                  Under changes to be committed:
                               Files in staging area, waiting to get commit (git takes the snapshot of our repository at this time).
