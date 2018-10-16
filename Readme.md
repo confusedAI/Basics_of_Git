@@ -59,7 +59,7 @@ I don't want to include folder *dir2* so I added */dir2* in *.gitignore*
 <br />
 ### Branching, mostly used during projects when many people are collaborating on that particular project.
 
-Read the modified Readme.md in login branch for learning branching basics....
+Read the modified _Readme.md_ in _login_ branch for learning branching basics....
 <br />
 ~~Completed Branching Basics~~
 <br />
