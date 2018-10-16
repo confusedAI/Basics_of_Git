@@ -74,7 +74,7 @@ _To create a new branch and switch to it at the same time, you can run the **git
 
 _Follow the below commands:_<br/>
 **touch login.txt** --- adds login.txt in login branch.<br/>
-**git commit -m '~~commit message~~'**<br/>
+**git commit -m "~~commit message~~"**<br/>
 **git checkout master** --- You will notice that _login.txt_ file is not there and even _Readme.md_ file is different, because the modified _Readme.md_ and _login.txt_ were in _login_ branch not _master_ branch, so they are different.
 
 
