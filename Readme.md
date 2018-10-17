@@ -5,58 +5,6 @@ This tutorial is prepared from the following video:
 Specific names such as *folder name,file name* are in italics.
 
 
-### Start with the below command to create your local repository
-**git init** ---  Creates a *.git* (hidden) folder in our *Basics* folder. We have initialized *Basics* as a git repository and now we can start to use git commands.
-##### The first thing to do is add your name and mail to git.
-
-**git config --global user.name ~~confusedAI~~**<br/>
-**git config --global user.email ~~mail_id~~**
-
-
-We should always add *README.md* describing our repository and the reason behind using .md(mark down) extension so that information explaining our repository displays nicely.  
-**git add Readme.md** --- adds *Readme.md* to your git repository.   
-
-~~Please also add log.txt file to learn few other commands. It's has no special use,we are just adding it to experiment with other helpful commands.~~
-<br/>
-<br/>
-**git status** ---
-
- * Under *changes to be committed* ---
-                    Files in staging area, waiting to get commit (git will take the snapshot of our repository at the time we commit).<br/>
- * Under *untracked files* ---
-                    Files to be added to staging area, so that they will be included in what will be committed).
-
-<br />
-
-**git rm --cached Readme.md** --- removes *Readme.md* from the staging area. Now if we do **git status** we'll see two untracked files* (Readme.md and log.txt)*.
-<br />
-<br />
-**git add \*.txt** --- adds all txt files to the staging area.
-<br />
-**git add .** --- adds everything to the staging area.
-<br />
-<br />
-<br />
-
-**git commit** ---  Finally we're committing our changes to local repository. This also opens a vim editor to write commit message(description about what changes you made, so that when you revert back to this version you can remember exactly with what changes you committed your repository at this version).
-<br />
-<br />
-<br />
-
-**git commit -m  ~~commit message~~** --- no need to open vim, just give the commit message in place of ~~commit message~~ within double quotes (" ").
-<br />
-<br />
-
-
-## Let's now see how to use ------------ *.gitignore file*
-Add all the names of files, folders, etc in *.gitignore* file, that you don't want in your local repository so that even if you type command **git add .** all the things in *.gitignore*  will be ignored and won't be added to staging area.
-
-**touch .gitignore** --- created empty file *.gitignore*
-<br />
-I don't want to include folder *dir2* so I added */dir2* in *.gitignore*
-<br />
-<br />
-<br />
 ### Branching, mostly used during projects when many people are collaborating on that particular project.
 Whenever we say **git status** till now we get _on branch master_. Suppose a team is working on a project and I am given a task of creating a login screen then I can just create a login(or any other name) branch so that I diverge from the main line of development and continue to do work without messing with that main line.
 
